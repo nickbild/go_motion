@@ -8,7 +8,8 @@ Coming soon!
 
 ## Media
 
-YouTube: https://www.youtube.com/watch?v=zxzlnXLueIg
+YouTube:  
+https://www.youtube.com/watch?v=zxzlnXLueIg
 
 Full Setup:
 

@@ -126,7 +126,8 @@ while True:
     orig = cv2.rotate(orig, 1)
     resize = cv2.resize(orig, (WIDTH, HEIGHT))
 
-    im = Image.fromarray(orig)
+    orig_rgb = cv2.cvtColor(orig, cv2.COLOR_BGR2RGB)
+    im = Image.fromarray(orig_rgb)
     im.save("img/full/img_{0}.jpg".format(SEQ_NO))
     
     execute({'new': resize})

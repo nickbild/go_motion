@@ -122,6 +122,8 @@ camera.running = True
 
 while True:
     orig = camera.value
+    
+    orig = cv2.rotate(orig, 1)
     resize = cv2.resize(orig, (WIDTH, HEIGHT))
 
     im = Image.fromarray(orig)

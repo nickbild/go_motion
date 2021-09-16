@@ -27,8 +27,6 @@ from trt_pose.parse_objects import ParseObjects
 import torchvision.transforms as transforms
 import PIL.Image
 from preprocessdata import preprocessdata
-from gesture_classifier import gesture_classifier
-from jetcam.usb_camera import USBCamera
 from jetcam.csi_camera import CSICamera
 from jetcam.utils import bgr8_to_jpeg
 from IPython.display import display
@@ -73,9 +71,8 @@ def execute(change):
                 NEED_NEXT_FRAME = True
                 EMPTY_FRAMES = 0
                 break
-    # print(hand_detected)
     
-    print("{0}: {1}".format(SEQ_NO, hand_detected))
+    # print("{0}: {1}".format(SEQ_NO, hand_detected))
 
     # This triggers after a hand has been seen,
     # then removed from the frame.
@@ -119,7 +116,6 @@ std = torch.Tensor([0.229, 0.224, 0.225]).cuda()
 device = torch.device('cuda')
 
 preprocessdata = preprocessdata(topology, num_parts)
-gesture_classifier = gesture_classifier()
 
 camera = CSICamera(width=1280, height=720, capture_fps=30)
 camera.running = True

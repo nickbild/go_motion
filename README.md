@@ -12,11 +12,11 @@ YouTube: https://www.youtube.com/watch?v=zxzlnXLueIg
 
 Full Setup:
 
-[](https://raw.githubusercontent.com/nickbild/go_motion/main/media/full_setup_sm.jpg)
+![](https://raw.githubusercontent.com/nickbild/go_motion/main/media/full_setup_sm.jpg)
 
 Jetson Xavier NX:
 
-[](https://raw.githubusercontent.com/nickbild/go_motion/main/media/jetson_nx_sm.jpg)
+![](https://raw.githubusercontent.com/nickbild/go_motion/main/media/jetson_nx_sm.jpg)
 
 ## Bill of Materials
 

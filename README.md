@@ -2,6 +2,10 @@
 
 Simplify stop motion animation with machine learning.
 
+<p align="center">
+<img src="https://raw.githubusercontent.com/nickbild/go_motion/main/media/teaser.gif">
+</p>
+
 ## How It Works
 
 Coming soon!

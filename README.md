@@ -12,6 +12,8 @@ A CSI camera is connected to a Jetson Xavier NX.  This camera continually captur
 
 Each time a hand leaves the frame, a single image is saved as part of the stop motion sequence.  In this way, it is possible to continually manipulate the scene, momentarily removing one's hands from view of the camera after each adjustment, and have a stop motion sequence automatically generated that contains only the relevant image frames.
 
+Run [go_motion.py](https://github.com/nickbild/go_motion/blob/main/go_motion.py) to start recording a stop motion sequence.
+
 ## Media
 
 YouTube:  
